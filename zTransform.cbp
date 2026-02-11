@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="zTransform" />
+		<Option pch_mode="0" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\zSlangInterpreter" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-D__DEBUG__" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="$(#wx)\lib\gcc_dll\mswu" />
+				</ResourceCompiler>
+				<Linker>
+					<Add directory="$(#wx)\lib\gcc_dll" />
+					<Add directory="$(#boost.lib)" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\zSlangInterpreter" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="$(#wx)\lib\gcc_dll\mswu" />
+				</ResourceCompiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-pipe" />
+			<Add option="-mthreads" />
+			<Add option='[[if (PLATFORM == PLATFORM_MSW &amp;&amp; (GetCompilerFactory().GetCompilerVersionString(_T(&quot;gcc&quot;)) &gt;= _T(&quot;4.0.0&quot;))) print(_T(&quot;-Wno-attributes&quot;));]]' />
+			<Add option="-Werror" />
+			<Add option="-Wswitch" />
+			<Add directory="$(#boost.include)" />
+			<Add directory="src\grammarRules" />
+			<Add directory="." />
+			<Add directory=".\include" />
+		</Compiler>
+		<ResourceCompiler>
+			<Add directory="$(#wx)\include" />
+		</ResourceCompiler>
+		<Linker>
+			<Add option="-mthreads" />
+			<Add option="-Wl,--stack,16777216" />
+			<Add option="-static-libgcc" />
+			<Add option="-static-libstdc++" />
+			<Add option="-static" />
+			<Add library="libboost_random-mgw46-s-1_50.a" />
+			<Add library="libboost_regex-mgw46-s-1_50.a" />
+			<Add directory="$(#boost.lib)" />
+			<Add directory="$(#wx.lib)" />
+		</Linker>
+		<Unit filename="include\Grammar.h" />
+		<Unit filename="include\TCode_Printer.h" />
+		<Unit filename="include\TExternals.h" />
+		<Unit filename="include\cInterpreter.h" />
+		<Unit filename="include\cLogger.h" />
+		<Unit filename="include\cMain.h" />
+		<Unit filename="include\cPreprocessor.h" />
+		<Unit filename="include\cProperty.h" />
+		<Unit filename="include\cSelection.h" />
+		<Unit filename="include\cValueOrRef.h" />
+		<Unit filename="include\cVarContext.h" />
+		<Unit filename="include\cVarStack.h" />
+		<Unit filename="include\cVariable.h" />
+		<Unit filename="include\hScriptTypes.h" />
+		<Unit filename="include\oScriptParser.h" />
+		<Unit filename="include\zArchiver.h" />
+		<Unit filename="include\zChunk.h" />
+		<Unit filename="include\zChunkMember.h" />
+		<Unit filename="include\zChunkSelectable.h" />
+		<Unit filename="include\zChunkVob.h" />
+		<Unit filename="include\zChunkWP.h" />
+		<Unit filename="include\zMeshAndBsp.h" />
+		<Unit filename="include\zUnarchiver.h" />
+		<Unit filename="include\zVobtree.h" />
+		<Unit filename="include\zWaynet.h" />
+		<Unit filename="include\zWorld.h" />
+		<Unit filename="src\TExternals.cpp" />
+		<Unit filename="src\TValue.cpp" />
+		<Unit filename="src\cInterpreter.cpp" />
+		<Unit filename="src\cLogger.cpp" />
+		<Unit filename="src\cMain.cpp" />
+		<Unit filename="src\cPreprocessor.cpp" />
+		<Unit filename="src\cProperty.cpp" />
+		<Unit filename="src\cSelection.cpp" />
+		<Unit filename="src\cValueOrRef.cpp" />
+		<Unit filename="src\cVarContext.cpp" />
+		<Unit filename="src\cVarStack.cpp" />
+		<Unit filename="src\cVariable.cpp" />
+		<Unit filename="src\grammarRules\errorHandlers.cpp">
+			<Option weight="69" />
+		</Unit>
+		<Unit filename="src\grammarRules\recursive.cpp" />
+		<Unit filename="src\grammarRules\startRules.cpp">
+			<Option weight="20" />
+		</Unit>
+		<Unit filename="src\grammarRules\statement.cpp">
+			<Option weight="70" />
+		</Unit>
+		<Unit filename="src\grammarRules\terminals.cpp">
+			<Option weight="21" />
+		</Unit>
+		<Unit filename="src\oScriptParser.cpp">
+			<Option weight="30" />
+		</Unit>
+		<Unit filename="src\zArchiver.cpp" />
+		<Unit filename="src\zChunk.cpp" />
+		<Unit filename="src\zChunkMember.cpp" />
+		<Unit filename="src\zChunkSelectable.cpp" />
+		<Unit filename="src\zChunkVob.cpp" />
+		<Unit filename="src\zChunkWP.cpp" />
+		<Unit filename="src\zMeshAndBsp.cpp" />
+		<Unit filename="src\zUnarchiver.cpp" />
+		<Unit filename="src\zVobtree.cpp" />
+		<Unit filename="src\zWaynet.cpp" />
+		<Unit filename="src\zWorld.cpp" />
+		<Unit filename="zTransformApp.cpp" />
+		<Unit filename="zTransformApp.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<wxsmith version="1">
+				<gui name="wxWidgets" src="zTransformApp.cpp" main="-- None --" init_handlers="necessary" language="CPP" />
+				<resources>
+					<wxFrame wxs="wxsmith/zTransformframe.wxs" src="zTransformMain.cpp" hdr="zTransformMain.h" name="zTransformFrame" language="CPP" />
+				</resources>
+			</wxsmith>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
