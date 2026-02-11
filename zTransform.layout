@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Release" />
+	<File name="include\Grammar.h" open="0" top="0" tabpos="11">
+		<Cursor position="5048" topLine="0" />
+	</File>
+	<File name="include\TCode_Printer.h" open="0" top="0" tabpos="2">
+		<Cursor position="4411" topLine="117" />
+	</File>
+	<File name="include\TExternals.h" open="0" top="0" tabpos="21">
+		<Cursor position="132" topLine="0" />
+	</File>
+	<File name="include\cInterpreter.h" open="0" top="0" tabpos="17">
+		<Cursor position="1668" topLine="38" />
+	</File>
+	<File name="include\cLogger.h" open="0" top="0" tabpos="4">
+		<Cursor position="885" topLine="15" />
+	</File>
+	<File name="include\cMain.h" open="0" top="0" tabpos="1">
+		<Cursor position="401" topLine="3" />
+	</File>
+	<File name="include\cPreprocessor.h" open="0" top="0" tabpos="0">
+		<Cursor position="216" topLine="0" />
+	</File>
+	<File name="include\cProperty.h" open="0" top="0" tabpos="23">
+		<Cursor position="2957" topLine="76" />
+	</File>
+	<File name="include\cSelection.h" open="0" top="0" tabpos="16">
+		<Cursor position="2557" topLine="63" />
+	</File>
+	<File name="include\cValueOrRef.h" open="0" top="0" tabpos="3">
+		<Cursor position="1509" topLine="25" />
+	</File>
+	<File name="include\cVarContext.h" open="0" top="0" tabpos="1">
+		<Cursor position="196" topLine="2" />
+	</File>
+	<File name="include\cVarStack.h" open="0" top="0" tabpos="22">
+		<Cursor position="802" topLine="12" />
+	</File>
+	<File name="include\cVariable.h" open="0" top="0" tabpos="14">
+		<Cursor position="467" topLine="0" />
+	</File>
+	<File name="include\hScriptTypes.h" open="0" top="0" tabpos="2">
+		<Cursor position="10796" topLine="411" />
+	</File>
+	<File name="include\oScriptParser.h" open="0" top="0" tabpos="13">
+		<Cursor position="114" topLine="5" />
+	</File>
+	<File name="include\zArchiver.h" open="0" top="0" tabpos="8">
+		<Cursor position="793" topLine="26" />
+	</File>
+	<File name="include\zChunk.h" open="0" top="0" tabpos="6">
+		<Cursor position="401" topLine="12" />
+	</File>
+	<File name="include\zChunkMember.h" open="0" top="0" tabpos="20">
+		<Cursor position="306" topLine="4" />
+	</File>
+	<File name="include\zChunkSelectable.h" open="0" top="0" tabpos="6">
+		<Cursor position="469" topLine="4" />
+	</File>
+	<File name="include\zChunkVob.h" open="0" top="0" tabpos="18">
+		<Cursor position="555" topLine="0" />
+	</File>
+	<File name="include\zChunkWP.h" open="0" top="0" tabpos="4">
+		<Cursor position="244" topLine="0" />
+	</File>
+	<File name="include\zMeshAndBsp.h" open="0" top="0" tabpos="3">
+		<Cursor position="246" topLine="0" />
+	</File>
+	<File name="include\zUnarchiver.h" open="0" top="0" tabpos="4">
+		<Cursor position="483" topLine="12" />
+	</File>
+	<File name="include\zVobtree.h" open="0" top="0" tabpos="14">
+		<Cursor position="474" topLine="0" />
+	</File>
+	<File name="include\zWaynet.h" open="0" top="0" tabpos="14">
+		<Cursor position="364" topLine="3" />
+	</File>
+	<File name="include\zWorld.h" open="0" top="0" tabpos="7">
+		<Cursor position="1551" topLine="50" />
+	</File>
+	<File name="src\TExternals.cpp" open="0" top="0" tabpos="9">
+		<Cursor position="19461" topLine="629" />
+	</File>
+	<File name="src\TValue.cpp" open="0" top="0" tabpos="7">
+		<Cursor position="4508" topLine="140" />
+	</File>
+	<File name="src\cInterpreter.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="20513" topLine="478" />
+	</File>
+	<File name="src\cLogger.cpp" open="0" top="0" tabpos="13">
+		<Cursor position="4721" topLine="174" />
+	</File>
+	<File name="src\cMain.cpp" open="0" top="0" tabpos="11">
+		<Cursor position="243" topLine="0" />
+	</File>
+	<File name="src\cPreprocessor.cpp" open="0" top="0" tabpos="12">
+		<Cursor position="309" topLine="0" />
+	</File>
+	<File name="src\cProperty.cpp" open="0" top="0" tabpos="24">
+		<Cursor position="259" topLine="256" />
+	</File>
+	<File name="src\cSelection.cpp" open="0" top="0" tabpos="15">
+		<Cursor position="1638" topLine="79" />
+	</File>
+	<File name="src\cValueOrRef.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="8501" topLine="242" />
+	</File>
+	<File name="src\cVarContext.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="2609" topLine="74" />
+	</File>
+	<File name="src\cVarStack.cpp" open="0" top="0" tabpos="20">
+		<Cursor position="1936" topLine="53" />
+	</File>
+	<File name="src\cVariable.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="262" topLine="0" />
+	</File>
+	<File name="src\grammarRules\errorHandlers.cpp" open="0" top="0" tabpos="12">
+		<Cursor position="79" topLine="0" />
+	</File>
+	<File name="src\grammarRules\recursive.cpp" open="0" top="0" tabpos="10">
+		<Cursor position="2600" topLine="63" />
+	</File>
+	<File name="src\grammarRules\startRules.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="391" topLine="0" />
+	</File>
+	<File name="src\grammarRules\statement.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="898" topLine="29" />
+	</File>
+	<File name="src\grammarRules\terminals.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="1593" topLine="42" />
+	</File>
+	<File name="src\oScriptParser.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="1893" topLine="61" />
+	</File>
+	<File name="src\zArchiver.cpp" open="0" top="0" tabpos="12">
+		<Cursor position="1272" topLine="13" />
+	</File>
+	<File name="src\zChunk.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="2769" topLine="155" />
+	</File>
+	<File name="src\zChunkMember.cpp" open="0" top="0" tabpos="19">
+		<Cursor position="2" topLine="0" />
+	</File>
+	<File name="src\zChunkSelectable.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="445" topLine="0" />
+	</File>
+	<File name="src\zChunkVob.cpp" open="0" top="0" tabpos="15">
+		<Cursor position="959" topLine="29" />
+	</File>
+	<File name="src\zChunkWP.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="568" topLine="2" />
+	</File>
+	<File name="src\zMeshAndBsp.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="717" topLine="14" />
+	</File>
+	<File name="src\zUnarchiver.cpp" open="0" top="0" tabpos="16">
+		<Cursor position="767" topLine="5" />
+	</File>
+	<File name="src\zVobtree.cpp" open="0" top="0" tabpos="13">
+		<Cursor position="3522" topLine="87" />
+	</File>
+	<File name="src\zWaynet.cpp" open="0" top="0" tabpos="13">
+		<Cursor position="2642" topLine="67" />
+	</File>
+	<File name="src\zWorld.cpp" open="0" top="0" tabpos="15">
+		<Cursor position="4059" topLine="3" />
+	</File>
+	<File name="zTransformApp.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="1704" topLine="47" />
+	</File>
+	<File name="zTransformApp.h" open="0" top="0" tabpos="8">
+		<Cursor position="1277" topLine="31" />
+	</File>
+</CodeBlocks_layout_file>
